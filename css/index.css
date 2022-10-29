@@ -214,7 +214,7 @@ hr:before,
 .note:not(.no-icon)::before {
   display: inline-block;
   font-weight: 600;
-  font-family: 'Font Awesome 6 Free';
+  font-family: 'Fira Code';
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
@@ -1366,7 +1366,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: consolas, "Fira Code", sans-serif;
+  font-family: Fira Code;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -1665,7 +1665,7 @@ figure.highlight pre .javascript .function {
 #article-container pre,
 #article-container code {
   font-size: var(--global-font-size);
-  font-family: consolas, "Fira Code", sans-serif !important;
+  font-family: Fira Code !important;
 }
 #article-container code {
   padding: 2px 4px;
